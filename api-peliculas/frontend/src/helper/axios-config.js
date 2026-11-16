@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3000'
+  baseURL: 'https://api-peliculas-backend-389k.onrender.com'
 });
